@@ -44,7 +44,7 @@ var myurl= "https://api.wunderground.com/api/7a70c4cdf5c4c206/geolookup/conditio
 });
 
 $( "#cityfield" ).keyup(function() {
-	var url = "52.10.97.231/"+$("#cityfield").val();
+	var url = "52.10.97.231/getcity?q="+$("#cityfield").val();
   $.getJSON(url,function(data) {
     var everything;
     everything = "<ul>";

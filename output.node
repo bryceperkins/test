@@ -1,0 +1,42 @@
+nohup: ignoring input
+{ protocol: null,
+  slashes: null,
+  auth: null,
+  host: null,
+  port: null,
+  hostname: null,
+  hash: null,
+  search: '?q=D',
+  query: { q: 'D' },
+  pathname: '/getcity',
+  path: '/getcity?q=D',
+  href: '/getcity?q=D' }
+/^D/
+Dammeron Valley
+Delta
+Deweyville
+Draper
+Duchesne
+Duck Creek Village
+Dugway
+Dutch John
+[ { cities: 'Dammeron Valley' },
+  { cities: 'Delta' },
+  { cities: 'Deweyville' },
+  { cities: 'Draper' },
+  { cities: 'Duchesne' },
+  { cities: 'Duck Creek Village' },
+  { cities: 'Dugway' },
+  { cities: 'Dutch John' } ]
+{ protocol: null,
+  slashes: null,
+  auth: null,
+  host: null,
+  port: null,
+  hostname: null,
+  hash: null,
+  search: '',
+  query: {},
+  pathname: '/',
+  path: '/',
+  href: '/' }

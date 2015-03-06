@@ -17,11 +17,11 @@ if(urlObj.pathname.indexOf("getcity")!= -1){
 	for (var i = 0; i < cities.length; i++){
 	  var result = cities[i].search(myRe);
     	  if(result != -1) {
-	  	jsonresult.push({city:cities[i]});
+	  	jsonresult.push({cities:cities[i]});
      	 	console.log(cities[i]);
 	  }
 	}
-	console.log(JSON.stringify(jsonresult));
+	console.log(jsonresult);
 	res.writeHead(200);
 	res.end(JSON.stringify(jsonresult));
 });
